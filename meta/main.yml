@@ -1,0 +1,12 @@
+galaxy_info:
+  author: Konstantin Kudryavtsev
+  description: [Ethereum] Common dependencies for Charlie roles 
+  license: MIT
+  min_ansible_version: 1.9
+  platforms:
+    - name: Ubuntu
+  versions:
+    - all
+  galaxy_tags:
+    - ethereum
+    - charlie
