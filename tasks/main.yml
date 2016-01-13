@@ -18,5 +18,9 @@
 - name: install docker-py
   pip: name=docker-py
 
+- name: open the ssh port
+  ufw: rule=allow port=22
+  notify: reload ufw
+
 - name: firewall default deny
   ufw: state=enabled policy=deny
